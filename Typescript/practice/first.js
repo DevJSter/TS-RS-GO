@@ -1,20 +1,18 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.name = void 0;
-function name(person) {
-    return "Hi from " + person.name + " I'm " + person.age + "years old";
+// interface Me {
+//     name:string
+//     age:number
+// }
+// | with this the OR/Intersection property of the ts and & Union property of ts
+var Arithmetic;
+(function (Arithmetic) {
+    Arithmetic[Arithmetic["Add"] = 0] = "Add";
+    Arithmetic[Arithmetic["Mul"] = 1] = "Mul";
+    Arithmetic[Arithmetic["Sub"] = 2] = "Sub";
+    Arithmetic[Arithmetic["Div"] = 3] = "Div";
+})(Arithmetic || (Arithmetic = {}));
+function calculate(a, b, type) {
+    console.log(type);
+    return 1;
 }
-exports.name = name;
-console.log(name({
-    name: "Shubham",
-    age: 25
-}));
-var Person = /** @class */ (function () {
-    function Person(name, age) {
-        this.name = name;
-        this.age = age;
-    }
-    return Person;
-}());
-var personobj = new Person("SHubham", 21);
-console.log(personobj);
+var ans = calculate(1, 2, Arithmetic.Div);
+console.log(ans);
