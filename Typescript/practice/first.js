@@ -1,3 +1,4 @@
+"use strict";
 // interface Me {
 //     name:string
 //     age:number
@@ -11,8 +12,8 @@ var Arithmetic;
     Arithmetic[Arithmetic["Div"] = 3] = "Div";
 })(Arithmetic || (Arithmetic = {}));
 function calculate(a, b, type) {
-    console.log(type);
+    console.log(type); //  Arithmetic[Arithmetic["Div"] = 3] = "Div";
     return 1;
 }
-var ans = calculate(1, 2, Arithmetic.Div);
+const ans = calculate(1, 2, Arithmetic.Div);
 console.log(ans);
