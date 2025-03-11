@@ -13,7 +13,7 @@ const b = a;
 
 class Botlle {
     protected material : string = "harinaam";
-    constructor(public name : string) {}
+    constructor(public readonly name : string) {}
 }
 
 class dadBottle extends Botlle {
@@ -32,5 +32,7 @@ class dadBottle extends Botlle {
 }
 
 let Bottttt = new dadBottle("Daddy")
-Bottttt.name = "Keshava"
+Bottttt.name = "Keshava" //readonly helps to catch bugs but ts will compile anyways -> hmmmmmmmmmmmmmmmmm
 console.log(Bottttt.name);
+
+

@@ -26,5 +26,5 @@ class dadBottle extends Botlle {
     }
 }
 let Bottttt = new dadBottle("Daddy");
-Bottttt.name = "Keshava";
+Bottttt.name = "Keshava"; //readonly helps to catch bugs but ts will compile anyways -> hmmmmmmmmmmmmmmmmm
 console.log(Bottttt.name);
