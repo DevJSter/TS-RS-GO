@@ -36,3 +36,13 @@ Bottttt.name = "Keshava" //readonly helps to catch bugs but ts will compile anyw
 console.log(Bottttt.name);
 
 
+// Functions
+// callbacks in fn calls
+function meow(name : string , cb : (value :string) => void ) {
+
+} 
+
+meow("SHUBHAM" , (value : string) => {
+    console.log(value);
+    
+})
