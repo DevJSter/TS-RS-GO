@@ -28,3 +28,11 @@ class dadBottle extends Botlle {
 let Bottttt = new dadBottle("Daddy");
 Bottttt.name = "Keshava"; //readonly helps to catch bugs but ts will compile anyways -> hmmmmmmmmmmmmmmmmm
 console.log(Bottttt.name);
+// Functions
+// callbacks in fn calls
+function meow(name, cb) {
+    cb("JAi Shree ram");
+}
+meow("SHUBHAM", (value) => {
+    console.log(value);
+});

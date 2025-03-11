@@ -39,7 +39,7 @@ console.log(Bottttt.name);
 // Functions
 // callbacks in fn calls
 function meow(name : string , cb : (value :string) => void ) {
-
+    cb("JAi Shree ram");
 } 
 
 meow("SHUBHAM" , (value : string) => {
