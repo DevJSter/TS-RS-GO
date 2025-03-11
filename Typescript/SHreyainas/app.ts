@@ -46,3 +46,13 @@ meow("SHUBHAM" , (value : string) => {
     console.log(value);
     
 })
+
+// -? Rest / Spread Parameter
+
+
+function sum(...arr : number[]) {
+    console.log(...arr);
+    
+}
+
+sum(1,2,3,4,5)
