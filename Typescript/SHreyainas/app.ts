@@ -121,3 +121,6 @@ console.log(b12);
 // Type casting
 // NOn null assertion operator
 
+// Tyoe Guard 
+// typeof instanceof
+
